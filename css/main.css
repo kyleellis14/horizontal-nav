@@ -1,3 +1,57 @@
 html {
+  background-color: #dbd6cf;
+  box-sizing: border-box;
+  line-height: 1.5;
+}
 
+h1 {
+  font-family: Bevan, serif;
+  font-size: 2rem;
+  color: #fff;
+  margin: 0;
+}
+
+ul > li {
+  display: inline-block;
+  font-family: sans-serif;
+  list-style-type: none;
+}
+
+ul {
+  padding-left: 0;
+  margin: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+  text-align: center;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  background-color: #713837;
+  border-radius: .3em;
+  display: inline-block;
+  padding: .6em;
+  margin-top: .3em;
+}
+
+body {
+  margin: 0;
+}
+
+.box {
+  background-color: #79756f;
+  border-top: 3px;
+  border-bottom: 3px;
+  border-style: solid;
+  border-color: #595652;
+  padding: .75em;
+}
+
+a:hover {
+  background-color: #f33;
+  border-color: #f33;
+  border-radius: .3em;
 }
